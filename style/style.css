@@ -1,0 +1,225 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:#fff;
+    background-image: url(../img/bg1.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+   
+}
+.first_section {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    /* height: 500px; */
+}
+.nav {
+    width: 100%;
+    /* height: 50px */
+    background-color:rgb(55 128 196 / 17%);
+    border-bottom: 1px solid white;
+}
+nav img {
+    height: 50px;
+    padding: 10px;
+}
+.nav nav ul {
+    display: flex;
+    margin-right: 40px;
+    /* text-decoration: none; */
+    /* font-size: 17px ; */
+}
+.nav nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-align: center;
+
+}
+ul:hover li a {
+    /* transform: scale(1.5); */
+    /* opacity: 0.2; */
+    filter: blur(5px);
+}
+ul li a:hover {
+    transform: scale(1.5);
+    opacity: 1;
+    filter: blur(0);
+    text-decoration: none;
+    /* color: #fff; */
+    color: black;
+}
+ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: -10px;
+    background: #52a3e3;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+ul li a:hover:before {
+    transition: transform 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* ------------------------------- */
+.search_bar .input {
+    width: 400px;
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-bottom-left-radius: 15px;
+    border-radius: 15px;
+}
+.search_bar input {
+    width: 350px;
+    padding: 8px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 15px;
+    border: none;
+}
+#search_box {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#search_box img, #cart img {
+    width: 25px;
+    height: 25px;
+    margin: -4px;
+}
+.element {
+    display: flex;
+    position: absolute;
+    left: 18%;
+    top: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.cart{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+  
+}
+.cart img{
+    padding: 0;
+    margin-right: 20px;
+}
+/* --------------------------------------------- */
+.side_nav .userimg{
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px dashed rgb(255, 255, 255);
+    margin: 5px;
+}
+.side_nav{
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    top: 75px;
+    padding: 10px 10px;
+    background-color: rgb(55 128 196 / 37%);
+    border-right: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    transition: width 0.8s;
+    z-index: 1;
+}      
+.side_nav img{
+    width: 35px;
+}
+.side_nav ul div{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.side_nav h3,.side_nav a{
+    display: none;
+}
+.side_nav ul{
+    padding: 0px;
+}
+
+/* --------------------------------------------- */
+.side_nav:hover .userimg{
+    width: 60px;
+    border-radius: 50%;
+    padding: 3px;
+    /* border: 2px dashed black; */
+    transition: width 0.8s;
+} 
+.side_nav:hover {
+    width: 300px;
+    height: 100%;
+    transition: width 0.8s;
+} 
+.side_nav:hover .user{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 90%;
+    border-radius: 20px;
+    background-color:  rgba(122, 122, 122, 0.181);
+    box-shadow: 0px 0px 20px 1px white;
+    transition: width 0.8s;
+}
+.side_nav:hover .user h3{
+    margin-left: 10px;
+    transition: width 0.8s;
+}
+.side_nav:hover a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    text-transform:capitalize;
+    /* color:#fff; */
+    transition: width 0.8s;
+    display: block;
+}
+:is(ul a){
+    color: #fff;
+}
+.side_nav:hover img{
+    width: 30px;
+    margin-right: 10px;
+    transition: width 0.8s;
+}
+.side_nav:hover div{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    transition: width 0.8s;
+    margin-left: 30px;
+}
+.side_nav:hover h3,.cat{
+    display: block;
+    font-size: 20px;
+}
+
+
+    
+

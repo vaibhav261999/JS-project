@@ -1,0 +1,77 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Henrix 38C 38 Inch Cutaway Acoustic Guitar",
+            "price":"Rs. 4,849",
+            "image":"products_1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Cort AF510M-OP Concert Body 6 String Acoustic Guitar - Open Pore",
+            "price":"Rs. 4,549",
+            "image":"products_2.jpg"
+        },
+        {
+            "id":3,
+            "name":"Fender Squier SA-150 Dreadnought 6-Strings Acoustic Guitar",
+            "price":"Rs. 5,990",
+            "image":"products_3.jpg"
+        },
+        {
+            "id":4,
+            "name":"Ibanez MD39C 39 inch Cutaway Acoustic Guitar",
+            "price":"Rs. 6,850",
+            "image":"products_4.jpg"
+        },
+        {
+            "id":5,
+            "name":" Vault EA40 Premium Solid Spruce-Top Cutaway Acoustic Guitar ",
+            "price":" Rs. 5,549 ",
+            "image":"products_5.jpg"
+        },
+        {
+            "id":6,
+            "name":"Cort AF500C Standard Series Cutaway 6 String Acoustic Guitar",
+            "price":"Rs. 7,999",
+            "image":"products_6.jpg"
+        },
+        {
+            "id":7,
+            "name":"Vault EA20 Guitar - 40 inch Cutaway Acoustic Guitar",
+            "price":"Rs. 8,849",
+            "image":"products_7.jpg"
+        },
+        {
+            "id":8,
+            "name":"Yamaha F280 40 Inch Acoustic Guitar",
+            "price":"Rs. 10,849",
+            "image":"products_8.jpg"
+        },
+        {
+            "id":9,
+            "name":"Henrix 38C 38 Inch Cutaway Acoustic Guitar",
+            "price":"Rs. 4,849",
+            "image":"products_9.jpg"
+        },
+        {
+            "id":10,
+            "name":"Henrix 38C 38 Inch Cutaway Acoustic Guitar",
+            "price":"Rs. 4,849",
+            "image":"products_10.jpg"
+        },
+        {
+            "id":11,
+            "name":"Henrix 38C 38 Inch Cutaway Acoustic Guitar",
+            "price":"Rs. 4,849",
+            "image":"products_11.jpg"
+        },
+        {
+            "id":12,
+            "name":"Henrix 38C 38 Inch Cutaway Acoustic Guitar",
+            "price":"Rs. 4,849",
+            "image":"products_12.jpg"
+        }
+        
+    ]
+}

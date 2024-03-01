@@ -1,0 +1,66 @@
+{
+
+    "products":[
+       {
+        "id":1,
+        "name":"Noise Smart Watch",
+        "price":34800,
+        "photo":"w1.jpg"
+       },
+       {
+        "id":2,
+        "name":"Apple digital Watch ",
+        "price":800,
+        "photo":"w2.jpg"
+       },
+       {
+        "id":3,
+        "name":"Fast Track Analog watch",
+        "price":3800,
+        "photo":"w3.jpg"
+       },
+       {
+        "id":4,
+        "name":"samsung diamond watch",
+        "price":35400,
+        "photo":"w4.jpg"
+       },
+       {
+        "id":5,
+        "name":"Rolex swis watch",
+        "price":12000,
+        "photo":"w5.jpg"
+       },
+       {
+        "id":6,
+        "name":"Sonata Analog Platinum Watch",
+        "price":66777,
+        "photo":"w6.jpg"
+       },
+       {
+        "id":7,
+        "name":"Titan Smart watch",
+        "price":38800,
+        "photo":"w7.jpg"
+       },
+       {
+        "id":8,
+        "name":"Reboc Water Proof Watch",
+        "price":6000,
+        "photo":"w8.jpg"
+       },
+       {
+        "id":9,
+        "name":"TMT analog hybrid Watch",
+        "price":78000,
+        "photo":"w9.jpg"
+       },
+       {
+        "id":10,
+        "name":"HMT Old Watch",
+        "price":12900,
+        "photo":"w10.jpg"
+       }
+    ]
+
+}

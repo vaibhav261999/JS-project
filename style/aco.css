@@ -1,0 +1,78 @@
+body{
+    background-color:#0a0d2d;
+    margin: 0;
+    background-image: none;
+}
+.collection{
+    position: absolute;
+    top: 150px;
+    /* margin-top: 300px; */
+}
+.collection img{
+    height: 250px;
+    width: 250px;
+    /* margin: 10px; */
+    border: 2px solid black;
+}
+.collection #gui div {
+    /* height: 450px; */
+    width: 250px;
+    background-color:#86afd5;
+    margin: 30px;
+    padding: 5px;
+}
+.collection #gui{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 400px; */
+}
+h2{
+    margin: 0;
+    color: black;
+    border-bottom:1px solid wheat ;
+}
+p{
+    color: black;
+    font-size: 17px;
+}
+h1{
+    color: #94ddfb;
+    font-size: 40px;
+    border-bottom:2px solid black ;
+    margin-left:150px ;
+}
+
+#show{
+    margin: 0;
+    padding: 2px;
+    font-size: 18px;
+    background-color: #94ddfb;
+    border-radius: 50%;
+    color:black;
+    position: absolute;
+    left: 35px;
+    top: 5px;
+}
+.cart a{
+        text-decoration: none;
+        list-style: none;
+    }
+
+button{
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#d4e157;
+}   
+
+#like{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}

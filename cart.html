@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        body{
+            background-image: none;
+            background-color: white;
+            color: black;
+        }
+        .nav{
+            background-color: rgb(55 128 196);
+        }
+        .card-main{
+            position: relative;
+            top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first_section">
+        <div class="nav">
+            <nav>
+                <img src="./img/v logo.png">
+
+                <div class="element">
+                    <div class="cart">
+                        <div>
+                            <span id="show"></span>
+                            <a href="cart.html">
+                                <img src="./img/icons8-cart-94.png" alt="#"></a>
+
+                        </div>
+
+                        <div><a href=""> <img src="./img/like.png" alt="#"> </a></div>
+                    </div>
+                    <div class="search_bar">
+                        <div class="input">
+                            <input type="text" id="search" placeholder="Search">
+                            <div id="search_box">
+                                <img src="./img/magnifier.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="index.html"> home </a></li>
+                        <li><a href="#"> New Products</a></li>
+                        <li><a href="#"> Hot sale </a></li>
+                        <li><a href="#"> About us </a></li>
+                        <li><a href="#"> contact </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="card-main">
+    <center>
+        <table border="1" width="600" align="center">
+           <tr>
+               <td> Item Name </td>
+               <td> Price </td>
+               <td> Qty </td>
+           </tr>
+           <tr>
+            <td> <span id="itemname"></span> </td>
+            <td> <span id="itemprice"></span> </td>
+            <td> <span id="itemqty"></span> 
+                <button id="incbtn">+</button> 
+                <button id="decbtn">-</button> </td>
+        </tr>
+        <tr>
+            <td> Total Amount :  </td>
+            <td> <span id="totalprice"></span> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>  </td>
+            <td> <a  href="checkout.html"><button>CheckOut</button></a> </td>
+            <td> </td>
+        </tr>
+        </table>
+</center>
+
+    </div>
+
+<script src="./js/cart.js"></script>
+</body>
+</html>
+
+
+</body>
+
+</html>

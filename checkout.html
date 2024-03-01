@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        body {
+            background-image: none;
+            background-color: white;
+            color: black;
+        }
+
+        .nav {
+            background-color: rgb(55 128 196);
+        }
+
+        .card-main {
+            position: relative;
+            top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first_section">
+        <div class="nav">
+            <nav>
+                <img src="./img/v logo.png">
+
+                <div class="element">
+                    <div class="cart">
+                        <div>
+                            <span id="show"></span>
+                            <a href="cart.html">
+                                <img src="./img/icons8-cart-94.png" alt="#"></a>
+
+                        </div>
+
+                        <div><a href=""> <img src="./img/like.png" alt="#"> </a></div>
+                    </div>
+                    <div class="search_bar">
+                        <div class="input">
+                            <input type="text" id="search" placeholder="Search">
+                            <div id="search_box">
+                                <img src="./img/magnifier.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="index.html"> home </a></li>
+                        <li><a href="#"> New Products</a></li>
+                        <li><a href="#"> Hot sale </a></li>
+                        <li><a href="#"> About us </a></li>
+                        <li><a href="#"> contact </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="card-main">
+        <center>
+            <table border="1" align="center" border="1" width="600">
+                <tr>
+                    <td>
+                        <h2> Total Price Of Product </h2>
+                    </td>
+                    <td>
+                        <span id="tprice"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2> Shipping Charges : </h2>
+                    </td>
+                    <td>
+                        <span id="scharge"> </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Grand Total:</h2>
+                    </td>
+                    <td>
+                        <span id="gtotal"></span>
+                    </td>
+                </tr>
+
+            </table>
+
+            <br><br><br>
+            <table width="1000">
+                <tr>
+                    <td>
+                        <h1> Shipping Address: </h1>
+                    </td>
+                    <td>
+                        <textarea rows="6" cols="50">
+
+                </textarea>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h1> Paymant Mode:</h1>
+                    </td>
+                    <td>
+
+                        <input type="radio" name="r1" value="banking" onclick="getVal()" id="r1"> Internet Banking
+                        <input type="radio" name="r1" value="card" onclick="getVal1()" id="r2"> Credit/Debit Card
+                        <input type="radio" name="r1" value="upi" onclick="getVal2()" id="r3"> UPI/Phone Pe
+                        <input type="radio" name="r1" value="cash" onclick="getVal3()" id="r4"> Cash On Delivery
+
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+
+                        <p id="paymethod"></p>
+                        <p id="msg"></p>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+
+    <script src="./js/checkout.js"></script>
+</body>
+
+</html>
